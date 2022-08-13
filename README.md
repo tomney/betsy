@@ -1,0 +1,2 @@
+# betsy
+Handle some bets
