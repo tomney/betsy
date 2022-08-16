@@ -1,6 +1,3 @@
---  1. Find the account_ids, number of bets placed 
---  and total dollars wagered on NBA games in
---  June 2019. Order the results in descending order by wager amount.
 WITH june_2019_nba_games AS (
     SELECT id
     FROM games
