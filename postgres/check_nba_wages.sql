@@ -40,4 +40,4 @@ FROM june_2019_nba_wage_totals
 GROUP BY
     account_id
 ORDER BY 
-    row_count DESC
+    row_count DESC;

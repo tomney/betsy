@@ -48,4 +48,4 @@ GROUP BY
     ,month_placed
 ORDER BY
     month_placed DESC
-    ,region
+    ,region;

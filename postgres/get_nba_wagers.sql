@@ -29,4 +29,4 @@ SELECT
 FROM june_2019_nba_bets
 GROUP BY account_id
 ORDER BY
-    total_waged DESC
+    total_waged DESC;

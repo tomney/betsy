@@ -23,5 +23,5 @@ SELECT
     bet_month,
     monthly_total,
     SUM(monthly_total) OVER (PARTITION BY bet_month ORDER BY bet_month) AS cumulative_total
-FROM jan_jun_2019_monthly_bet_totals
+FROM jan_jun_2019_monthly_bet_totals;
 
