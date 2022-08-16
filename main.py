@@ -1,6 +1,0 @@
-import psycopg2
-
-
-
-
-

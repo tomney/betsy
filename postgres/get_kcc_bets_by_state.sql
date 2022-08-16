@@ -1,8 +1,3 @@
---  3. Find the number of users and total dollars bet by US state 
---  per month on Kansas City Chiefs games. Include all bets placed 
---  between Sept and Dec 2019 (inclusive) and order the results by
---  month (most recent month first) then state.
-
 WITH kcc_games AS (
     SELECT id
     FROM games

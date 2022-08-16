@@ -25,7 +25,7 @@ WITH june_2019_nba_games AS (
 SELECT
     account_id
     ,COUNT(account_id) as num_bets
-    ,COUNT(amount) as total_waged
+    ,SUM(amount) as total_waged
 FROM june_2019_nba_bets
 GROUP BY account_id
 ORDER BY
